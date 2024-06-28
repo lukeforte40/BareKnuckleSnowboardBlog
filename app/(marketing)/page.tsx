@@ -8,11 +8,17 @@ export default function Home() {
       <Link href="/about" className={Style.card}>
         <div id="about">
           <h2>About</h2>
+          <div className={Style.preview}>
+            
+          </div>
         </div>
       </Link>
       <Link href="/blog" className={Style.card}>
         <div id="blog">
           <h2>Blog</h2>
+          <div className={Style.preview}>
+
+          </div>
         </div>
       </Link>
     </main>

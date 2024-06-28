@@ -3,6 +3,7 @@
   display: grid;
   height: 90%;
   grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 .card{
   height: 90%;
@@ -20,4 +21,7 @@
       font-size: 2em;
     }    
   }
+}
+.preview{
+  display: grid;
 }
