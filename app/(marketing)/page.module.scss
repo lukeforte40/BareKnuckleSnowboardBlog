@@ -1,0 +1,23 @@
+@import '../_styles/globalvars.scss';
+.main{
+  display: grid;
+  height: 90%;
+  grid-template-columns: 1fr 1fr;
+}
+.card{
+  height: 90%;
+  width: 90%;
+  border-radius: 20px;
+  margin: auto;
+  background-color: $primaryColor;
+  text-decoration: none;
+  div{
+    border-radius: 20px;
+    display: grid;
+    h2{
+      text-align: center;
+      color: $quarternaryColor;
+      font-size: 2em;
+    }    
+  }
+}
