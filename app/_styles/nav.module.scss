@@ -1,0 +1,17 @@
+@import "../_styles/globalvars.scss";
+.nav{
+    display: flex;
+    height: 5%;
+    background-color: $secondaryColor;
+    a{
+        text-align: center;
+        text-decoration: none;
+        display: grid;
+        align-content: center;
+        color: $quarternaryColor;
+        font-size: 1.5em;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}

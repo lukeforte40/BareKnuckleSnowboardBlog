@@ -9,7 +9,7 @@ export default function Home() {
         <div id="about">
           <h2>About</h2>
           <div className={Style.preview}>
-            
+            <p>Fix Me</p>
           </div>
         </div>
       </Link>
@@ -17,7 +17,7 @@ export default function Home() {
         <div id="blog">
           <h2>Blog</h2>
           <div className={Style.preview}>
-
+            <p>Fix Me</p>
           </div>
         </div>
       </Link>
