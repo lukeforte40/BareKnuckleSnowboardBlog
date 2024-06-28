@@ -1,0 +1,27 @@
+@import '../_styles/globalvars.scss';
+@import '../_styles/fonts.scss';
+*{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+h1{
+  font-family: title ,'Times New Roman';
+  font-size: 3em;
+  letter-spacing: 0.1rem;
+  color: $quarternaryColor;
+  text-align: center;
+  background-color: $primaryColor;
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 10%;
+  align-content: center;
+  display: grid;
+}
